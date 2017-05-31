@@ -14,7 +14,9 @@
 
   notes:
   'source: "/disk2/Faliu/fcn/data/train_combined.txt" ' within both train.prototxt and inference.prototxt refers to data in HDF5 format.     
-  Please change this directory according to your data. The Caffe used is in: https://github.com/BVLC/caffe
+  Please change this directory according to your data. 
+  
+  The Caffe used is in: https://github.com/BVLC/caffe
 
 
   # SegNet
