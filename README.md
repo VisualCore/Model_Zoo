@@ -2,9 +2,13 @@
 
 # FCN
   train.prototxt: architecture for training
+  
   inference.prototxt: architecture for inference
+  
   solver.prototxt: configuration file
+  
   vgg16-fcn.caffemodel: pre-trained model
+  
   _iter_10000.caffemodel: final trained model with previous architecture
 
 notes:
