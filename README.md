@@ -1,4 +1,4 @@
-# Spectral_Model
+# SpectralMD_Model
 
   # FCN
   train.prototxt: architecture for training
