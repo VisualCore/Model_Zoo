@@ -1,4 +1,4 @@
-# Model_Zoo
+# Spectral_Model
 
   # FCN
   train.prototxt: architecture for training
