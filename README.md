@@ -28,7 +28,7 @@
   # model2
   All batch normalization layers in segNet architecture under model2 folder are from official Caffe.
 
-  That is, BathNorm + Scale layers are used. In this case, there are only two steps which as segNet training and testing.
+  That is, BathNorm + Scale layers are used. In this case, there are only two steps which are segNet training and testing.
 
   notes: The segNet architectures under model1 are the same as that under model2. 
 
