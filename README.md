@@ -18,17 +18,17 @@
 
 
   # SegNet
-    # model1
-    All batch normalization layers in segNet architecture under model1 folder are from segNet Caffe. That is, BN layer is used. 
+  # model1
+  All batch normalization layers in segNet architecture under model1 folder are from segNet Caffe. That is, BN layer is used. 
 
-    In this case, after finishing training segNet, the compute_bn_statistics.py should be conducted before testing segNet.
+  In this case, after finishing training segNet, the compute_bn_statistics.py should be conducted before testing segNet.
 
-    Please refer to segNet tutorial website http://mi.eng.cam.ac.uk/projects/segnet/tutorial.html
-      
-    # model2
-    All batch normalization layers in segNet architecture under model2 folder are from official Caffe.
+  Please refer to segNet tutorial website http://mi.eng.cam.ac.uk/projects/segnet/tutorial.html
 
-    That is, BathNorm + Scale layers are used. In this case, there are only two steps which as segNet training and testing.
+  # model2
+  All batch normalization layers in segNet architecture under model2 folder are from official Caffe.
+
+  That is, BathNorm + Scale layers are used. In this case, there are only two steps which as segNet training and testing.
 
   notes: The segNet architectures under model1 are the same as that under model2. 
 
