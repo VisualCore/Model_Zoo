@@ -1,0 +1,38 @@
+net: "../model/train.prototxt"
+test_iter: 10
+# make test net, but don't invoke it from the solver itself
+test_interval: 100
+
+display: 50
+
+base_lr: 0.001
+momentum: 0.9
+weight_decay: 0.0005
+
+# The learning rate policy
+lr_policy: "step"
+gamma: 0.7
+stepsize: 1000
+
+# snapshot intermediate results
+snapshot:5000
+snapshot_prefix: "../snapshot/"
+
+#debug_info: true
+# solver mode: CPU or GPU
+solver_mode: GPU
+
+
+#average_loss: 20
+#lr_policy: "fixed"
+# lr for unnormalized softmax
+#base_lr: 1e-10
+# high momentum
+#momentum: 0.99
+# no gradient accumulation
+#iter_size: 1
+#max_iter:6000
+#weight_decay: 0.0005
+#snapshot: 200
+#snapshot_prefix: "snapshot/"
+#test_initialization: false
